@@ -1,0 +1,20 @@
+Package: meld3pexa
+Title: MELD 3.0 Score - ModelsCloud Service
+Version: 0.1.0
+Authors@R: c(
+    person("Ramin", "Rezaeianzadeh", email = "raminrzn@student.ubc.ca",
+           role = c("aut", "cre")),
+    person("W. Ray", "Kim", role = "ctb", comment = "First author of MELD 3.0"))
+Description: Implements the MELD 3.0 score for end-stage liver disease and its
+    published 90-day survival estimate (Kim et al., Gastroenterology 2021
+    <doi:10.1053/j.gastro.2021.08.050>). This is the research score from the
+    paper, not the OPTN organ-allocation calculator: it has no dialysis rule
+    and no cap at 40.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: jsonlite, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/raminrzn/meld3pexa
